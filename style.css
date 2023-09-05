@@ -1,0 +1,2169 @@
+/* Home page */
+
+/* (805-about) */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+}
+
+.wrapper {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.top {
+    width: 100%;
+    height: 100vh;
+}
+
+.banner {
+    position: fixed;
+    background-color: rgba(133, 130, 130, 0.39);
+    width: 100%;
+    height: 60px;
+}
+
+.banner {
+    z-index: 20;
+}
+
+nav {
+    position: absolute;
+    left: 500px;
+    padding-top: 19px;
+    width: 40vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    gap: 50px;
+}
+
+#navbaar {
+    position: relative;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: .5px;
+    padding: .20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#navbaar:after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 0px;
+    background: rgb(255, 174, 0);
+    transition: .5s;
+}
+
+#navbaar:after {
+    left: 0;
+    bottom: -10px;
+}
+
+#navbaar:hover {
+    color: rgb(255, 174, 0)
+}
+
+#navbaar:hover:after {
+    width: 100%;
+}
+
+.img1 {
+    width: 100%;
+    height: 600px;
+    background-image: url(images/index-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 20px;
+}
+
+
+.img1 h1 {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 800;
+    text-align: center;
+    position: absolute;
+    top: 250px;
+    left: 400px;
+    word-spacing: 10px;
+}
+
+.box1 {
+    position: absolute;
+    top: 10px;
+    left: 1200px;
+    position: fixed;
+}
+
+.box1 button {
+    border-radius: 15px;
+    width: 100px;
+    height: 40px;
+    padding: 1px 8px;
+    cursor: pointer;
+    background: transparent;
+    border: 2px solid rgb(255, 174, 0);
+    transition: all .25s ease;
+    z-index: 21;
+    text-decoration: none;
+}
+
+.box1 button:hover {
+    background: rgb(255, 174, 0);
+    color: #000;
+}
+
+.box1 button a {
+    font-size: 15px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+    margin-top: -12px;
+    left: 30px;
+    position: fixed;
+    background-repeat: no-repeat;
+    background-color: rgba(133, 130, 130, 0.589);
+    background-size: cover;
+    top: -25px;
+    background-image: url(images/logo.png);
+    z-index: 21;
+}
+
+.booknow {
+
+    position: absolute;
+    bottom: 60px;
+    right: 0px;
+    rotate: -90deg;
+    position: fixed;
+    z-index: 18;
+}
+
+.booknow button {
+    border-radius: 15px;
+    font-weight: 500;
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+    padding: 1px 8px;
+    cursor: pointer;
+    background-color: rgb(255, 174, 0);
+    border: 2px solid rgb(255, 174, 0);
+    color: #fff;
+}
+
+.form1 {
+    display: flex;
+    position: relative;
+    z-index: 17;
+    top: -70px;
+    left: 100px;
+    width: 1200px;
+    height: 100px;
+    background-color: rgb(26, 31, 31);
+    justify-content: space-around;
+}
+
+.form1 form {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    color: #fff;
+    font-size: 20px;
+}
+
+.button2 button {
+    display: flex;
+    position: relative;
+    right: -20px;
+    cursor: pointer;
+    background-color: rgb(255, 174, 0);
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    width: 200px;
+    height: 100px;
+    justify-content: center;
+}
+
+.button2 button p {
+    position: relative;
+    top: 20px;
+}
+
+.section2 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    position: relative;
+}
+
+.section2 h2 {
+    color: #000;
+    font-size: 30px;
+    font-weight: 800;
+    word-spacing: 10px;
+    position: relative;
+    left: 250px;
+    top: 20px;
+}
+
+.section2 .first p {
+    color: #000;
+    font-size: 20px;
+    font-weight: 400;
+    position: relative;
+    left: 250px;
+    top: 50px;
+}
+
+.img2 {
+    height: 350px;
+    width: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(images/intro-2.jpg);
+    position: relative;
+    left: 430px;
+    top: -50px;
+}
+
+.img3 {
+    height: 270px;
+    width: 320px;
+    /*    left: 30px;*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(images/intro-1.jpg);
+    position: relative;
+    left: 50px;
+    top: 25px;
+    border: 4px solid rgb(255, 255, 255);
+}
+
+.about {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    background-image: url(images/star.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.text1 p {
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+.text1 h2 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    position: relative;
+    left: 400px;
+    top: 10px;
+}
+
+.aboutusimg1 {
+    position: relative;
+    top: 170px;
+    right: 700px;
+    z-index: 16;
+    width: 500px;
+    height: 400px;
+    overflow: hidden;
+    backface-visibility: hidden;
+    display: flex;
+    cursor: pointer;
+    transition: 0.25s ease-in-out;
+}
+
+.aboutusimg1:hover img {
+    transform: scale(1.50);
+}
+
+.aboutusimg1:hover img {
+    transform: scale(1.50);
+}
+
+.aboutusimg1 img {
+    z-index: 10;
+    transition: 0.25s ease-in-out;
+}
+
+.text1 h3 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    position: relative;
+    left: 570px;
+    top: 70px;
+}
+
+.text1 h4 {
+    color: #12f0f8;
+    font-size: 20px;
+    font-weight: 200;
+    position: relative;
+    left: 570px;
+    top: 100px;
+}
+
+.about button {
+    border-radius: 10px;
+    background:#ffffff;
+    color: #000000;
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    position: relative;
+    top: 545px;
+    right: 629px;
+}
+
+.about button:hover {
+    background: rgb(255, 174, 0);
+    color: #000;
+}
+
+.about button a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.room {
+    display: flex;
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+
+
+.test2 h2 {
+    position: relative;
+    color: #000000;
+    font-size: 40px;
+    font-weight: 700;
+    left: 500px;
+    top: 10px;
+}
+
+.test2 p {
+    position: relative;
+    font-size: 20px;
+    line-height: 30px;
+    left: 300px;
+    top: 10px;
+    text-align: center;
+}
+
+.ooms {
+    display: flex;
+    position: absolute;
+    gap: 50px;
+}
+
+.ooms img {
+    gap: 30px;
+    height: 250px;
+    width: 350px;
+    position: relative;
+    top: 180px;
+    left: 120px;
+}
+
+.ooms h3 {
+    position: absolute;
+    font-size: 25px;
+    background-color: #a7a2a291;
+    border-radius: 10px;
+}
+
+.single {
+    position: relative;
+    right: 890px;
+    top: 200px;
+    gap: 100px;
+}
+
+.family {
+    position: relative;
+    right: 480px;
+    top: 200px;
+    gap: 100px;
+}
+
+.twin {
+    position: relative;
+    right: 100px;
+    top: 200px;
+    gap: 100px;
+}
+
+.room button {
+    border-radius: 10px;
+    background: transparent;
+    border: 2px solid rgb(255, 174, 0);
+    color: #000000;
+    font-size: 20px;
+    cursor: pointer;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    position: relative;
+    top: 440px;
+    right: 220px;
+}
+
+.room button:hover {
+    background: rgb(255, 174, 0);
+    color: #000;
+}
+
+.room button a {
+    text-decoration: none;
+}
+
+.imagelast {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+
+.imagelast .last {
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    background-image: url(images/review-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.last img {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    top: 60px;
+    left: 50px;
+}
+
+.imagelast .last2 img {
+    position: relative;
+    width: 150px;
+    height: 100px;
+    top: 10px;
+    left: 250px;
+}
+
+.imagelast .last2 p {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    position: relative;
+    top: 0px;
+    left: 400px;
+}
+
+.specification {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 500px;
+}
+
+.text2 h2 {
+    position: relative;
+    color: #000000;
+    font-size: 40px;
+    font-weight: 700;
+    left: 450px;
+    top: 10px;
+}
+
+.text2 p {
+    position: relative;
+    font-size: 20px;
+    line-height: 30px;
+    left: 300px;
+    top: 20px;
+    text-align: center;
+}
+
+.rsa {
+    display: flex;
+    position: absolute;
+    gap: 50px;
+}
+
+.rsa img {
+    gap: 30px;
+    height: 250px;
+    width: 350px;
+    position: relative;
+    top: 180px;
+    left: 120px;
+}
+
+.rsa h3 {
+    position: absolute;
+    width: 250px;
+    height: 30px;
+    font-size: 25px;
+    background-color: #a7a2a291;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.restro {
+    top: 380px;
+    left: 150px;
+    gap: 100px;
+}
+
+.spa {
+    position: relative;
+    top: 380px;
+    left: 570px;
+    gap: 100px;
+}
+
+.play {
+    position: relative;
+    top: 380px;
+    right: -70px;
+    gap: 100px;
+}
+
+.specification button {
+    border-radius: 10px;
+    background: transparent;
+    border: 2px solid rgb(255, 174, 0);
+    color: #000000;
+    font-size: 20px;
+    cursor: pointer;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    position: relative;
+    top: 440px;
+    right: 220px;
+}
+
+.specification button:hover {
+    background: rgb(255, 174, 0);
+    color: #000;
+}
+
+.specification button a {
+    text-decoration: none;
+}
+
+.service {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-image: url(images/service-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text3 h2 {
+    position: relative;
+    color: #000000;
+    font-size: 40px;
+    font-weight: 700;
+    left: 450px;
+    top: 10px;
+}
+
+.text3 p {
+    position: relative;
+    font-size: 20px;
+    line-height: 30px;
+    left: 300px;
+    top: 20px;
+    text-align: center;
+}
+
+.icons {
+    display: flex;
+    position: absolute;
+}
+
+.icons .fir {
+    display: flex;
+    gap: 350px;
+    position: relative;
+    top: 180px;
+    left: 190px;
+    width: 50px;
+    height: 50px;
+}
+
+.icons .sec {
+    display: flex;
+    gap: 350px;
+    position: relative;
+    top: 330px;
+    left: 150px;
+    width: 50px;
+    height: 50px;
+}
+
+.icons h2 {
+    position: relative;
+    font-size: 25px;
+    text-align: center;
+    color: black;
+}
+
+.wifi {
+    position: relative;
+    top: 250px;
+    right: 330px;
+}
+
+.room12 {
+    position: relative;
+    top: 250px;
+    right: 100px;
+}
+
+.park {
+    position: relative;
+    top: 400px;
+    right: 680px;
+}
+
+.call {
+    position: relative;
+    top: 400px;
+    right: 500px
+}
+
+.icons .photo img {
+    position: relative;
+    width: 400px;
+    height: 300px;
+    top: 160px;
+    left: 700px;
+}
+
+.gallery {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 400px;
+}
+
+.gallery h2 {
+    position: relative;
+    font-size: 40px;
+    color: black;
+    top: 20px;
+    left: 470px;
+}
+
+.gallery .g-img {
+    display: flex;
+    position: absolute;
+    gap: 20px;
+}
+
+.gallery .g-img img {
+    width: 300px;
+    height: 200px;
+    position: relative;
+    top: 100px;
+    left: 50px;
+}
+
+.gallery button {
+    border-radius: 10px;
+    background: transparent;
+    border: 2px solid rgb(255, 174, 0);
+    color: #000000;
+    font-size: 20px;
+    cursor: pointer;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    position: relative;
+    top: 330px;
+    left: 150px;
+}
+
+.gallery button:hover {
+    background: rgb(255, 174, 0);
+    color: #000;
+}
+
+.gallery button {
+    text-decoration: none;
+}
+
+.last {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 250px;
+    background-image: url(images/bottom-2.png);
+    background-repeat: no-repeat;
+}
+
+.last .blank {
+    position: relative;
+    height: 250px;
+    width: 50vw;
+    background-color: rgba(0, 0, 0, 0.644);
+}
+
+.blank h2 {
+    font-size: 18px;
+    color: white;
+    position: relative;
+    top: 50px;
+    left: 150px;
+    word-spacing: 20px;
+    letter-spacing: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.blank p {
+    font-size: 12px;
+    color: white;
+    position: relative;
+    top: 80px;
+    left: 150px;
+    word-spacing: 20px;
+    letter-spacing: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.blank button {
+    border-radius: 10px;
+    background: transparent;
+    border: 2px solid rgb(255, 255, 255);
+    color: #ffffff;
+    font-size: 20px;
+    cursor: pointer;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    position: relative;
+    top: 100px;
+    left: 150px;
+}
+
+.blank button:hover {
+    background: rgba(255, 174, 0, 0.466);
+    color: #ffffff;
+}
+
+.footer {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background-color: #000;
+}
+
+.footer .foot1 h2 {
+    position: relative;
+    color: white;
+    font-size: 22px;
+    top: 30px;
+    left: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.footer .foot1 p {
+    position: relative;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    top: 80px;
+    left: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.footer .foot3 h2 {
+    position: relative;
+    color: white;
+    font-size: 22px;
+    top: 30px;
+    left: 300px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.footer .foot3 form {
+    position: relative;
+    color: #12f0f8;
+    top: 40px;
+    left: 300px;
+}
+
+.footer .icon1 {
+    display: flex;
+    position: relative;
+    font-size: 50px;
+    left: -50px;
+}
+
+iframe {
+    margin-left: 300px;
+}
+
+/* home page end here */
+
+/* About us page start now */
+
+.top1 {
+    width: 100%;
+    /* height: 75vh; */
+    overflow: hidden;
+}
+
+.img-1a {
+    width: 100%;
+    height: 450px;
+    background-image: url(images/about---us-top.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-1a h1 {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 800;
+    text-align: center;
+    position: relative;
+    top: 200px;
+    left: 10px;
+    word-spacing: 20px;
+    letter-spacing: 5px;
+}
+
+.img-1a h1 hr {
+    margin-left: 280px;
+}
+
+.section3 {
+    width: 100%;
+    /* height: 700px; */
+    margin-bottom: -385px;
+}
+
+.section3 h2 {
+    font-size: 30px;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: black;
+    text-align: center;
+}
+
+.section3 h2 hr {
+    /* display: flex; */
+    margin-left: 325px;
+}
+
+.section3 p {
+    font-size: 15px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.fstimg {
+    width: 400px;
+    height: 500px;
+    display: flex;
+    background-image: url(images/violet-woods\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 30px;
+    left: 650px;
+}
+
+.box2 {
+    height: 450px;
+    width: 500px;
+    background-color: rgba(241, 241, 241, 0.692);
+    position: relative;
+    bottom: 445px;
+    left: 300px;
+}
+
+.box2 p {
+    padding: 40px 30px;
+}
+
+.box2 h2 {
+    padding-top: 40px;
+}
+
+.box2 h4 {
+    padding: 5px 10px;
+}
+
+.choose {
+    width: 100%;
+    height: 420px;
+}
+
+.choose h2 {
+    font-size: 30px;
+    font-weight: 800;
+    word-spacing: 10px;
+    padding: 10px 50px;
+    text-transform: capitalize;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.imagee {
+    width: 400px;
+    height: 250px;
+    background-image: url(images/travel-3871117.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    rotate: -15deg;
+    margin-top: 50px;
+    margin-left: 90px;
+    border: 3px solid white;
+}
+
+.imagee img {
+    width: 400px;
+    height: 250px;
+    rotate: 15deg;
+    border: 5px solid white;
+}
+
+.choose p {
+    width: 750px;
+    font-size: 20px;
+    color: black;
+    position: relative;
+    bottom: 300px;
+    left: 600px;
+}
+
+.choose button {
+    border-radius: 10px;
+    background: transparent;
+    border: 2px solid rgb(255, 174, 0);
+    color: #000000;
+    font-size: 20px;
+    cursor: pointer;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    position: relative;
+    bottom: 250px;
+    left: 600px;
+}
+
+.choose button:hover {
+    background: rgb(255, 174, 0);
+    color: #000;
+}
+
+.attraction h3 {
+    font-size: 30px;
+    font-weight: 800;
+    word-spacing: 10px;
+    margin-left: 50px;
+    text-transform: capitalize;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.attraction .nearbyimg {
+    display: flex;
+    width: 1200px;
+    height: 330px;
+    justify-content: space-around;
+    border-radius: 15px;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+.attraction .nearbyimg img {
+    width: 200px;
+    height: 300px;
+    border-radius: 15px;
+}
+
+
+.resortreview {
+    width: 100%;
+    /* height: 350px; */
+    overflow: hidden;
+}
+
+.resortreview h3 {
+    font-size: 30px;
+    font-weight: 800;
+    word-spacing: 10px;
+    margin-left: 50px;
+    text-transform: capitalize;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.review {
+    display: flex;
+    gap: 50px;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.review .review1 {
+    width: 254px;
+    height: 250px;
+    background-color: blueviolet;
+    background-image: url(images/background-texture-surface-profile-260nw-479518879.webp);
+}
+
+.review .review2 {
+    width: 254px;
+    height: 250px;
+    background-color: blueviolet;
+    background-image: url(images/background-texture-surface-profile-260nw-479518879.webp);
+}
+
+.review .review3 {
+    width: 254px;
+    height: 250px;
+    background-color: blueviolet;
+    background-image: url(images/background-texture-surface-profile-260nw-479518879.webp);
+}
+
+.review .review1child {
+    width: 250px;
+    height: 150px;
+    position: relative;
+    top: 100px;
+    background-color: rgb(255, 255, 255);
+    z-index: 1;
+    border: 2px solid black;
+}
+
+.review .child1 {
+    height: 65px;
+    width: 65px;
+    border-radius: 40px;
+    top: -40px;
+    left: 88px;
+    z-index: 1;
+    background-color: antiquewhite;
+    position: relative;
+    overflow: hidden;
+}
+
+.review .star {
+    display: flex;
+    position: absolute;
+    bottom: 80px;
+    left: 65px;
+    gap: 10px;
+    color: yellow;
+}
+
+.review h2 {
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    top: 30px;
+    left: 58px;
+}
+
+.review p {
+    position: absolute;
+    color: black;
+    font-size: 13px;
+    top: 70px;
+    left: 10px;
+}
+
+.review ul {
+    position: absolute;
+    left: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 14;
+    border-radius: 15px;
+    padding-left: 0;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    top: -117px;
+    opacity: 0;
+    transform: translate(100%);
+    transition: all .25s ease;
+}
+
+.review ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backface-visibility: hidden;
+    width: 35px;
+    height: 35px;
+    background: #fff;
+    opacity: .7;
+    list-style: none;
+    transition: all .25s ease;
+}
+
+.review ul li:hover {
+    opacity: 1;
+    transform: translate(-7px -4px);
+    border-radius: 6px;
+}
+
+.review ul li i {
+    font-size: 1rem;
+    color: #000;
+}
+
+.review .review1:hover ul {
+    transform: translate(0);
+    opacity: 1;
+}
+
+.review .review2:hover ul {
+    transform: translate(0);
+    opacity: 1;
+}
+
+.review .review3:hover ul {
+    transform: translate(0);
+    opacity: 1;
+}
+
+/* about page end */
+/* accommondiaition page start */
+
+.top2 {
+    width: 100vw;
+    /* height: 75vh; */
+    overflow: hidden;
+}
+
+.img-2a {
+    width: 100%;
+    height: 450px;
+    background-image: url(images/accomondition-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-2a h1 {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 800;
+    text-align: center;
+    position: relative;
+    top: 200px;
+    left: 10px;
+    word-spacing: 20px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.img-2a h1 hr {
+    margin-left: 80px;
+}
+
+.section4 {
+    width: 100%;
+    margin-bottom: 120px;
+}
+
+.section4 p {
+    font-size: 15px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.section4 h2 {
+    font-size: 36px;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.section4 h2 hr {
+    margin-left: 450px;
+}
+
+.discoverimgs {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.discoverimgs .dis-img {
+    display: flex;
+    /* width: 350px;
+    height: 500px; */
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 530px;
+}
+
+.discoverimgs .dis-img img {
+    width: 350px;
+    height: 500px;
+    z-index: 10;
+    border: 4px solid white;
+}
+
+.discoverimgs .dis-img1 {
+    display: flex;
+    /* width: 800px;
+    height: 500px; */
+    /* gap: 100px; */
+    margin-left: 240px;
+    margin-top: -500px;
+}
+
+.discoverimgs .dis-img1 img {
+    width: 470px;
+    height: 400px;
+}
+
+/* accommonditin page end */
+
+/* rooms page start */
+
+.top3 {
+    width: 100%;
+    /* height: 75vh; */
+    overflow: hidden;
+}
+
+.img-3a {
+    width: 100%;
+    height: 450px;
+    background-image: url(images/Resorrooms.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-3a h1 {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 800;
+    text-align: center;
+    position: relative;
+    top: 200px;
+    left: 10px;
+    word-spacing: 20px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.img-3a h1 hr {
+    margin-left: 80px;
+}
+
+.roompage {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+
+.roomhead {
+    width: 1000px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.roomhead h2 {
+    font-size: 36px;
+    font-weight: 800;
+    word-spacing: 10px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.roomhead p {
+    font-size: 18px;
+    font-weight: 400;
+    word-spacing: 5px;
+    padding-top: 20px;
+    padding-left: 20px;
+    text-align: center;
+}
+
+.roomdetials {
+    width: 100%;
+}
+
+.roomdetials .room1a {
+    width: 100%;
+    height: 300px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-radius: 15px;
+}
+
+.room1a .extra img {
+    width: 450px;
+    height: 250px;
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-left: 10px;
+    float: left;
+}
+
+.room1a .extra h2 {
+    font-size: 30px;
+    font-weight: 800;
+    word-spacing: 10px;
+    padding-top: 40px;
+    padding-left: 40px;
+    text-transform: uppercase;
+    float: left;
+}
+
+.room1a p {
+    font-size: 18px;
+    font-weight: 400;
+    word-spacing: 5px;
+    margin-top: 30px;
+    margin-left: 50px;
+    text-align: center;
+    float: left;
+}
+
+.room1a button {
+    border-radius: 10px;
+    background: transparent;
+    border: 2px solid rgb(255, 174, 0);
+    color: #000000;
+    font-size: 20px;
+    cursor: pointer;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 55px;
+}
+
+.room1a button:hover {
+    background: rgb(255, 174, 0);
+    color: #000;
+}
+
+.roomdetials .room2b {
+    width: 100%;
+    height: 300px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-radius: 15px;
+}
+
+.room2b .extra img {
+    width: 450px;
+    height: 250px;
+    border-radius: 10px;
+    margin-right: 10px;
+    float: right;
+    margin-top: 25px;
+}
+
+.room2b .extra h2 {
+    font-size: 30px;
+    font-weight: 800;
+    word-spacing: 10px;
+    padding-top: 45px;
+    padding-right: 40px;
+    text-transform: uppercase;
+    float: right;
+}
+
+.room2b p {
+    font-size: 18px;
+    font-weight: 400;
+    word-spacing: 5px;
+    margin-top: 30px;
+    margin-left: 20px;
+    text-align: center;
+    float: left;
+}
+
+.room2b button {
+    border-radius: 10px;
+    background: transparent;
+    border: 2px solid rgb(255, 174, 0);
+    color: #000000;
+    font-size: 20px;
+    cursor: pointer;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    margin-top: 50px;
+    margin-right: 55px;
+    float: right;
+}
+
+.room2b button:hover {
+    background: rgb(255, 174, 0);
+    color: #000;
+}
+
+.roomdetials .room3c {
+    width: 100%;
+    height: 300px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-radius: 15px;
+}
+
+.room3c .extra img {
+    width: 450px;
+    height: 250px;
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-left: 10px;
+    float: left;
+}
+
+.room3c .extra h2 {
+    font-size: 30px;
+    font-weight: 800;
+    word-spacing: 10px;
+    padding-top: 40px;
+    padding-left: 40px;
+    text-transform: uppercase;
+    float: left;
+}
+
+.room3c p {
+    font-size: 18px;
+    font-weight: 400;
+    word-spacing: 5px;
+    margin-top: 30px;
+    margin-left: 50px;
+    text-align: center;
+    float: left;
+}
+
+.room3c button {
+    border-radius: 10px;
+    background: transparent;
+    border: 2px solid rgb(255, 174, 0);
+    color: #000000;
+    font-size: 20px;
+    cursor: pointer;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 55px;
+}
+
+.room3c button:hover {
+    background: rgb(255, 174, 0);
+    color: #000;
+}
+
+
+.roomdetials .room4d {
+    width: 100%;
+    height: 300px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-radius: 15px;
+}
+
+.room4d .extra img {
+    width: 450px;
+    height: 250px;
+    border-radius: 10px;
+    margin-right: 10px;
+    float: right;
+    margin-top: 25px;
+}
+
+.room4d .extra h2 {
+    font-size: 30px;
+    font-weight: 800;
+    word-spacing: 10px;
+    padding-top: 45px;
+    padding-right: 40px;
+    text-transform: uppercase;
+    float: right;
+}
+
+.room4d p {
+    font-size: 18px;
+    font-weight: 400;
+    word-spacing: 5px;
+    margin-top: 30px;
+    margin-left: 20px;
+    text-align: center;
+    float: left;
+}
+
+.room4d button {
+    border-radius: 10px;
+    background: transparent;
+    border: 2px solid rgb(255, 174, 0);
+    color: #000000;
+    font-size: 20px;
+    cursor: pointer;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    margin-top: 50px;
+    margin-right: 55px;
+    float: right;
+}
+
+.room4d button:hover {
+    background: rgb(255, 174, 0);
+    color: #000;
+}
+
+.roomdetials .room5e {
+    width: 100%;
+    height: 300px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-radius: 15px;
+}
+
+.room5e .extra img {
+    width: 450px;
+    height: 250px;
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-left: 10px;
+    float: left;
+}
+
+.room5e .extra h2 {
+    font-size: 30px;
+    font-weight: 800;
+    word-spacing: 10px;
+    padding-top: 40px;
+    padding-left: 40px;
+    text-transform: uppercase;
+    float: left;
+}
+
+.room5e p {
+    font-size: 18px;
+    font-weight: 400;
+    word-spacing: 5px;
+    margin-top: 30px;
+    margin-left: 50px;
+    text-align: center;
+    float: left;
+}
+
+.room5e button {
+    border-radius: 10px;
+    background: transparent;
+    border: 2px solid rgb(255, 174, 0);
+    color: #000000;
+    font-size: 20px;
+    cursor: pointer;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 55px;
+}
+
+.room5e button:hover {
+    background: rgb(255, 174, 0);
+    color: #000;
+}
+
+
+.roomdetials .room6f {
+    width: 100%;
+    height: 300px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-radius: 15px;
+}
+
+.room6f .extra img {
+    width: 450px;
+    height: 250px;
+    border-radius: 10px;
+    margin-right: 10px;
+    float: right;
+    margin-top: 25px;
+}
+
+.room6f .extra h2 {
+    font-size: 30px;
+    font-weight: 800;
+    word-spacing: 10px;
+    padding-top: 45px;
+    padding-right: 40px;
+    text-transform: uppercase;
+    float: right;
+}
+
+.room6f p {
+    font-size: 18px;
+    font-weight: 400;
+    word-spacing: 5px;
+    margin-top: 30px;
+    margin-left: 20px;
+    text-align: center;
+    float: left;
+}
+
+.room6f button {
+    border-radius: 10px;
+    background: transparent;
+    border: 2px solid rgb(255, 174, 0);
+    color: #000000;
+    font-size: 20px;
+    cursor: pointer;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    margin-top: 50px;
+    margin-right: 55px;
+    float: right;
+}
+
+.room6f button:hover {
+    background: rgb(255, 174, 0);
+    color: #000;
+}
+
+.roomdetials .room7g {
+    width: 100%;
+    height: 300px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-radius: 15px;
+}
+
+.room7g .extra img {
+    width: 450px;
+    height: 250px;
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-left: 10px;
+    float: left;
+}
+
+.room7g .extra h2 {
+    font-size: 30px;
+    font-weight: 800;
+    word-spacing: 10px;
+    padding-top: 40px;
+    padding-left: 40px;
+    text-transform: uppercase;
+    float: left;
+}
+
+.room7g p {
+    font-size: 18px;
+    font-weight: 400;
+    word-spacing: 5px;
+    margin-top: 30px;
+    margin-left: 50px;
+    text-align: center;
+    float: left;
+}
+
+.room7g button {
+    border-radius: 10px;
+    background: transparent;
+    border: 2px solid rgb(255, 174, 0);
+    color: #000000;
+    font-size: 20px;
+    cursor: pointer;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 55px;
+}
+
+.room7g button:hover {
+    background: rgb(255, 174, 0);
+    color: #000;
+}
+
+
+/* room page end */
+
+/* gallery page start */
+
+.top4 {
+    width: 100vw;
+    /* height: 75vh; */
+    overflow: hidden;
+}
+
+.img-4a {
+    width: 100%;
+    height: 450px;
+    background-image: url(images/mountains-100367.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-4a h1 {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 800;
+    text-align: center;
+    position: relative;
+    top: 200px;
+    left: 10px;
+    word-spacing: 20px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.img-4a h1 hr {
+    margin-left: 380px;
+}
+
+.section5 {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.galery-img1 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.galery-img1 img {
+    width: 600px;
+    height: 350px;
+    border-radius: 20px;
+    /* border: 4px solid blue;     */
+}
+
+.galery-img2 {
+    margin-top: 20px;
+    margin-left: 300px;
+}
+
+.galery-img2 img {
+    width: 800px;
+    height: 500px;
+    border-radius: 20px;
+}
+
+.galery-img3 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.galery-img3 img {
+    width: 400px;
+    height: 250px;
+    border-radius: 20px;
+}
+
+.galery-img4 {
+    margin-top: 20px;
+    margin-left: 300px;
+}
+
+.galery-img4 img {
+    width: 800px;
+    height: 500px;
+    border-radius: 20px;
+}
+
+.galery-img5 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.galery-img5 img {
+    width: 600px;
+    height: 350px;
+    border-radius: 20px;
+}
+
+.galery-img6 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.galery-img6 img {
+    width: 600px;
+    height: 350px;
+    border-radius: 20px;
+}
+
+/* gallery page end */
+
+/* conact-us page start */
+
+.top5 {
+    width: 100%;
+    overflow: hidden;
+}
+
+.img-5a {
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/wood-591631.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* #contactbanner {
+    width: 1360px;
+    height: 600px;
+    background: url("images/contactbanner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover
+} */
+
+.contacthead {
+    font-size: 70px;
+    color: white;
+    text-align: center;
+    padding-top: 300px
+}
+
+#contactbackgrund {
+    width: 100%;
+    height: 750px;
+    margin-top: 0px;
+    margin-left: 0px;
+    background: rgba(35, 34, 34, 1.00)
+}
+
+/* #contactbackgrund:hover .contact {
+    color: rgba(19, 19, 19, 1.00);
+    text-shadow: 1px 1px 1px rgba(153, 93, 7, 1.00);
+    transition: 0.5s all ease-in-out
+} */
+
+.contact {
+    font-size: 80px;
+    font-family: roboto;
+    color: rgb(255, 166, 0);
+    text-align: center;
+    padding-top: 60px;
+    font-weight: bolder;
+    line-height: 70px;
+    text-shadow: 1px 1px 1px white;
+    padding-left: 50px;
+    z-index: 5
+}
+
+#form {
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 600px;
+    background: transparent;
+    border-left: 2px solid white
+}
+
+/* ::placeholder {
+    color: white
+} */
+
+#form input[type="text"] {
+    width: 250px;
+    height: 40px;
+    background: transparent;
+    position: absolute;
+    margin-left: 50px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 3px solid white;
+    font-family: roboto;
+    margin-top: 20px
+}
+
+#form input[type="text"]:hover {
+    transform: scale(1.1, 1.1);
+    transition: 0.5s all ease-in-out
+}
+
+#form input[type="text1"]:hover {
+    transform: scale(1.05, 1.05);
+    transition: 0.5s all ease-in-out
+}
+
+input[type="email"]:hover {
+    transform: scale(1.1, 1.1);
+    transition: 0.5s all ease-in-out
+}
+
+#form input[type="message"]:hover {
+    transform: scale(1.05, 1.05);
+    transition: 0.5s all ease-in-out
+}
+
+#form input[type="email"] {
+    width: 250px;
+    height: 40px;
+    background: transparent;
+    position: absolute;
+    margin-left: 400px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 3px solid white;
+    font-family: roboto;
+    ;
+    margin-top: 20px
+}
+
+#form input[type="text1"] {
+    width: 600px;
+    height: 40px;
+    background: transparent;
+    position: absolute;
+    margin-left: 50px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 3px solid white;
+    font-family: roboto;
+
+    margin-top: 100px
+}
+
+#form input[type="message"] {
+    width: 600px;
+    height: 40px;
+    background: transparent;
+    position: absolute;
+    margin-left: 50px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 3px solid white;
+    font-family: roboto;
+    margin-top: 200px
+}
+
+#form input[type="submit"] {
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    position: absolute;
+    margin-left: 270px;
+    border-left: none;
+    border-right: none;
+    border-top: 2.2px solid rgba(153, 93, 7, 1.00);
+    border-bottom: 2.2px solid rgba(153, 93, 7, 1.00);
+    font-family: roboto;
+    margin-top: 310px;
+    color: white;
+    font-size:24px;
+    cursor: pointer;
+}
+
+.add {
+    font-size: 15px;
+    color: rgba(153, 93, 7, 1.00);
+    padding-left: 150px;
+    position: absolute;
+    font-family: roboto;
+    padding-top: 100px;
+    line-height: 80px;
+    letter-spacing: 2px
+}
+
+.addabout {
+    font-size: 16px;
+    color: rgba(221, 212, 213, 1.00);
+    position: absolute;
+    padding-left: 150px;
+    padding-top: 160px;
+    font-family: roboto;
+    line-height: 30px;
+    letter-spacing: 1px
+}
+
+/* conact page end */
+/* book now page start */
+
+.booknowbanner {
+    width: 1360px;
+    height: 660px;
+    background: url("images/booknowbanner.png")
+}
+
+.bookbannner {
+    font-size: 60px;
+    color: black;
+    font-weight: 800;
+    text-align: center;
+    position: absolute;
+    top: 200px;
+    left: 450px;
+    text-shadow: 1px 1px aqua
+}
+
+.bookabout {
+    color: white;
+    font-weight: bolder;
+    font-size: 50px;
+    padding-top: 200px;
+    padding-left: 150px
+}
+
+.subbookabout {
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    padding-left: 150px;
+    padding-top: 15px;
+    text-align: left
+}
+
+#bookform {
+    width: 400px;
+    height: 480px;
+    background-color: rgba(34, 32, 33, 1.00);
+    position: absolute;
+    margin-left: 800px;
+    margin-top: -390px;
+}
+
+.bookform {
+    font-size: 17px;
+    color: white;
+    position: absolute;
+    padding-left: 35px;
+    margin-top: -23px;
+    line-height: 90px;
+    word-spacing: 110px
+}
+
+#bookform input[type="text"] {
+    width: 320px;
+    height: 40px;
+    background-color: rgba(22, 21, 21, 1.00);
+    border: none;
+    color: grey;
+    padding-left: 10px;
+    position: absolute;
+    margin-left: 35px;
+    margin-top: 50px
+}
+
+#bookform input[type="text"]::placeholder {
+    color: grey
+}
+
+#bookform input[type="date"]::placeholder {
+    background: grey
+}
+
+#bookform input[type="date"] {
+    width: 136px;
+    height: 40px;
+    margin-top: 140px;
+    margin-left: 33px;
+    background: rgba(22, 21, 21, 1.00);
+    border: none;
+    padding-left: 10px;
+    color: grey;
+}
+
+.roomform {
+    width: 340px;
+    height: 40px;
+    background-color: rgba(22, 21, 21, 1.00);
+    border: none;
+    color: grey;
+    padding-left: 10px;
+    position: absolute;
+    margin-left: -330px;
+    margin-top: 230px
+}
+
+.adult {
+    width: 150px;
+    height: 40px;
+    background-color: rgba(22, 21, 21, 1.00);
+    border: none;
+    color: grey;
+    padding-left: 10px;
+    position: absolute;
+    margin-left: -330px;
+    margin-top: 320px
+}
+
+.child {
+    width: 155px;
+    height: 40px;
+    background-color: rgba(22, 21, 21, 1.00);
+    border: none;
+    color: grey;
+    padding-left: 10px;
+    position: absolute;
+    margin-left: -155px;
+    margin-top: 320px
+}
+
+#bookform input[type="submit"] {
+    width: 340px;
+    height: 40px;
+    background-color: rgba(228, 136, 66, 1.00);
+    border: none;
+    padding-left: 10px;
+    position: absolute;
+    margin-left: -330px;
+    margin-top: 410px;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    cursor: pointer;
+}
